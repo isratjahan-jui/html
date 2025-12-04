@@ -1,0 +1,51 @@
+#mynav ul,
+#mynav li {
+    background-color: rgb(214, 97, 14);
+    list-style: none;
+    float: left;
+    display: flex;
+    margin: 5px 5px;
+    width: 100%;
+    height: 10 fit-content;
+    color: rgb(219, 168, 74);
+    justify-content: space-between;
+}
+
+.contactTable,
+.contactTable tr,
+.contactTable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+.contactTable {
+    width: 50%;
+    align-items: center;
+}
+
+#mynav a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav2 ul,
+#nav2 li {
+    background-color: rgb(114, 11, 11);
+    list-style: none;
+    float: left;
+    display: flex;
+    margin: 5px 5px;
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+}
+
+#nav2 a  {
+    text-decoration: none;
+    color: white;
+}
+#nav2{
+    background-color: rgb(157, 196, 51);
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    width: 100%;
+    height: 10vh;
+    background-color: lightblue;
+    text-align: center;
+    font-size: large;font-weight: bold;
+}
+
+#left {
+    width: 50%;
+    height: 80vh;
+    background-color: lightgreen;
+    float: left;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+#right {
+    width: 50%;
+    height: 80vh;
+    background-color: lightcoral;
+    float: left;
+    text-align: center;
+}
+
+#bottom {
+    margin-top: 80vh;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(228, 228, 168);
+    clear: both;
+}

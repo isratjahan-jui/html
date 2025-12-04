@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+#nav ul,
+#nav li {
+    list-style: none;
+    float: left;
+    display: flex;
+    margin: 5px 5px;
+    color: rgb(241, 198, 119);
+    justify-content: space-between;
+}
+
+#nav ul {
+    background-color: rgb(65, 62, 62);
+    padding: 10px;
+    border-radius: 10px;width:100%;height: fit-conten;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+#nav a:hover{
+    color: rgb(241, 119, 119);
+}
+#nav{
+    width: 100%;
+    height: auto;
+}
