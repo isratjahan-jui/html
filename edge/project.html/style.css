@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    /* color: white; */
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}

@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    /* color: white; */
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: white;
+    color: #0f0f0f;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+        footer.edge-footer {
+            background: linear-gradient(180deg, var(--edge-darker), var(--edge-dark));
+            color: var(--edge-text);
+            padding: 48px 0 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* .edge-brand {
+            display: flex;
+            /* align-items: center; */
+            /* gap: 16px;
+            margin-bottom: 16px; */
+        } */
+
+        /* .edge-logo {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            /* background: radial-gradient(circle at 30% 30%, #60a5fa, #22d3ee 60%, #0ea5e9);
+            box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15), 0 10px 25px rgba(0, 0, 0, 0.35); */
+        } */
+
+        .edge-title {
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            font-size: 1.75rem;
+            margin: 0;
+        }
+
+        .edge-subtitle {
+            color: var(--edge-muted);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-top: -2px;
+        }
+
+        .edge-address {
+            margin-top: 16px;
+        }
+
+        .edge-address h6 {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+        }
+
+        .edge-address p {
+            margin: 0;
+            color: var(--edge-muted);
+            line-height: 1.6;
+        }
+
+        .edge-section-title {
+            font-weight: 700;
+            margin-bottom: 12px;
+            font-size: 1rem;
+            color: var(--edge-text);
+        }
+
+        .edge-links a {
+            display: block;
+            color: var(--edge-muted);
+            text-decoration: none;
+            padding: 6px 0;
+            transition: color 0.2s ease, transform 0.15s ease;
+        }
+
+        .edge-links a:hover {
+            color: var(--edge-accent);
+            transform: translateX(2px);
+        }
+
+        .edge-divider {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            margin: 24px 0;
+        }
+
+        .edge-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            color: var(--edge-muted);
+            font-size: 0.95rem;
+        }
+
+        .edge-dev {
+            color: var(--edge-text);
+            font-weight: 600;
+        }
+
+        .edge-social a {
+            color: var(--edge-muted);
+            font-size: 1.1rem;
+            margin-right: 12px;
+            transition: color 0.2s ease, transform 0.15s ease;
+        }
+
+        .edge-social a:hover {
+            color: var(--edge-accent);
+            transform: translateY(-2px);
+        }
+
+        /* Small adjustments */
+        @media (max-width: 576px) {
+            .edge-title {
+                font-size: 1.5rem;
+            }
+
+            .edge-logo {
+                width: 48px;
+                height: 48px;
+            }
+        }
