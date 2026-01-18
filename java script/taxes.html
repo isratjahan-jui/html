@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let discount = prompt("enter your number discount");
+        let unitPrice = prompt("enter your number unitPrice");
+        let quntity = prompt("enter your number quntity");
+        let totalprice = unitPrice * quntity;
+        let discountAmount = 0;
+        // totalprice * (discount / 100)
+
+        let finalPrice = 0;
+        //    totalprice - discountAmount
+        if (totalprice >= 50) {
+            discountAmount = totalprice * (discount / 100);
+            finalPrice = totalprice - discountAmount;
+
+
+        }
+        document.writeln(finalPrice);
+    </script>
+</body>
+
+</html>

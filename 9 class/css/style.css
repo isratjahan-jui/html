@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid color black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#side {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+#main iframe {
+    width: 100%;
+    height: 100vh;
+}
+
+#side a {
+    text-decoration: none;
+}
+
+#side ul {
+    display: flex;
+    gap: 10px;
+}
+
+#side li {
+    list-style: none;
+    margin: auto;
+}
+
+fieldset {
+    background-color: #e1e59c;
+    margin: auto;
+}

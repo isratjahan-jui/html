@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let usernames = [
+            "Jui",
+            "Rehana",
+            "Emon",
+            "Shaharan",
+            "Sajin",
+        ];
+        let passwards = [
+            "Jui45",
+            "Rehana79",
+            "Emon86",
+            "Shaharan09",
+            "Sajin89",
+        ];
+        let found = false;
+        for (let index = 0; index < usernames.length; index++) {
+            if (usernames === usernames[index]) {
+                found = true;
+                let passward = prompt("Enter your passward");
+                if (passwards === passwards[index]) {
+                    document.writeln("Welcome");
+                    break;
+                }
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

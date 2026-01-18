@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="">Radius</label>
+        <input type="text" id="Radius" oninput="areaPerimeter()"> <br>
+        <label for="">Area</label>
+        <span id="Area"> </span> <br>
+        <label for="">Perimeter</label>
+        <span id="Perimeter"> </span>
+
+    </form>
+    <script>
+        function areaPerimeter() {
+            let r = document.getElementById("Radius").value;
+            const PI = 3.1416;
+            document.getElementById("Area").innerHTML = PI * r ** 2;
+            document.getElementById("Perimeter").innerHTML = 2 * PI * r;
+        }
+
+    </script>
+</body>
+
+</html>

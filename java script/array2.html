@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let arraysize = prompt("enter array size");
+        let arrayList = [];
+        let sum = 0;
+        let text ="";
+        for (let index = 0; index < arraysize; index++) {
+            let item = prompt("enter a item");
+            arrayList[index] = item;
+
+        }
+        document.writeln(arrayList + "<br>");
+
+        for (let index = 0; index < arrayList.length; index++) {
+            sum += Number.parseInt(arrayList[index]);
+            text = text + arrayList[index] + " + ";
+        }
+        let newText = text.substring(0, text.length - 2);
+        document.writeln(newText + " = " + sum);
+    </script>
+</body>
+
+</html>

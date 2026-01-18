@@ -1,0 +1,57 @@
+#navbar {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    }
+#navbar, ul,li {display: flex;
+list-style: none;
+gap: 29vh;
+color: antiquewhite;}
+
+#navbar a{
+text-decoration: none;
+}
+#navbar a :hover{color: aliceblue;}
+
+#container{
+    width: 90%;
+    height: 100vh;
+   
+
+}
+#container iframe{   width: 100%;
+    height: 100vh;
+
+}
+
+
+table{
+    border: 1px solid black;
+    width: 60%;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+}
+table,tr,th,td{border: 1px solid black;
+    border-collapse: collapse;
+}
+#j{background-color: brown;}
+#u{background-color: bisque;}
+#i{background-color: rgb(66, 136, 136);}
+
+
+
+/* #sidebar{
+    width: 10%;
+    height: 100vh;
+    float: left;
+
+}
+#sidebar li{
+list-style: none;
+
+}
+#sidebar a{
+    text-decoration: none;
+} */

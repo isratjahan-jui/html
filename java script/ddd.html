@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="">
+        <label for="">Amount</label>
+        <input type="number" id="Amount"> <br><br>
+
+        <label for="">Discount (%)</label>
+        <input type="number" id="Discount"> <br><br>
+
+        <label for="">Discount Amount</label>
+        <span id="discountAmount"></span> <br><br>
+
+        <label for="">Final Payment</label>
+        <span id="finalPayment"></span> <br><br>
+
+        <button type="button" onclick="payment()">Calculate</button>
+    </form>
+
+    <script>
+        function payment() {
+            let a = parseFloat(document.getElementById("Amount").value);
+            let d = parseFloat(document.getElementById("Discount").value);
+
+            if (isNaN(a) || isNaN(d)) {
+                alert("Please enter valid numbers!");
+                return;
+            }
+
+            let discountAmount = (a * d) / 100;
+            let finalPayment = a - discountAmount;
+
+            document.getElementById("discountAmount").innerHTML = discountAmount.toFixed(2);
+            document.getElementById("finalPayment").innerHTML = finalPayment.toFixed(2);
+        }
+    </script>
+
+
+</body>
+</html>

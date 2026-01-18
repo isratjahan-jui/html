@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let mark = prompt("Enter your mark");
+
+        if (mark < 0) {
+            document.writeln("Invalid mark");
+        } else if (mark < 33) {
+            document.writeln("Grade:F ");
+        } else if (mark < 40) {
+            document.writeln("Grade: D");
+        } else if (mark < 50) {
+            document.writeln("Grade: C");
+        } else if (mark < 60) {
+            document.writeln("Grade:B");
+        }
+        else if (mark < 70) {
+            document.writeln("Grade:A-");
+        }
+        else if (mark < 80) {
+            document.writeln("Grade:A");
+        }
+        else if (mark <= 100) {
+            document.writeln("Grade:A+");
+        }
+        else {
+            document.writeln("Grade: invalid mark");
+        }
+    </script>
+</body>
+
+</html>
